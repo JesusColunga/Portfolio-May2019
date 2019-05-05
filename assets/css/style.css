@@ -1,0 +1,46 @@
+/*  style.css            */
+/*  Portfolio - May2019  */
+/*  4/May/2019           */
+
+body {
+	background-image:   url("../images/memphis-mini.png");
+}
+
+
+/* - - - -  class  - - - - - */
+.fontSize1 {
+    font-size: 0.8rem;
+}
+
+.mb-3 {
+    max-width:45%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.proy {
+    width:20rem;
+    margin: 5rem;
+}
+
+/* - - - -  id  - - - - - */
+
+
+/* - - -  Media Queries  - - - */
+@media only screen and (max-width: 980px) { 
+    h1 {
+        font-size:      40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size:      30px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size:      20px;
+    }
+}
